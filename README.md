@@ -1,6 +1,7 @@
-# 🧾 Chat-Based Expense Tracker
 
-A minimalist, frictionless web app for tracking expenses through simple chat commands — no logins, no clutter, just type and track.
+# 🧾 Chat-Based Expense Tracker (Chrome Extension)
+
+A minimalist, frictionless Chrome extension for tracking expenses through simple chat commands — no logins, no clutter, just type and track.
 
 ---
 
@@ -8,54 +9,43 @@ A minimalist, frictionless web app for tracking expenses through simple chat com
 
 - 🔸 Start by entering your *name* and the *current month*
 - 💬 Add expenses via simple chat input like `500 food`
-- 📊 Automatically updates a *pie chart* showing category-wise expenses
-- 🧠 Remembers your data using *localStorage* (persists across sessions)
-- ✂️ Subtract expenses with `del food 200`
+- 📊 Instantly updates a *pie chart* showing category-wise expenses
+- 🧠 Remembers your data using *localStorage* — your data persists even if you close Chrome
+- ✂️ Subtract expenses easily with commands like `del food 200`
 - 📤 *Export* your monthly data as JSON
-- 🔄 *Reset* to start fresh (clears all stored data)
+- 🔄 *Reset* everything with a single click to start fresh
 
 ---
 
 ## 🖥️ How to Use
 
-1. Open `index.html` in your browser
-2. Enter your name and current month
-3. Type your expenses like:
+1. Install and open the extension
+2. Enter your *name* and the *current month* when prompted
+3. Track expenses by typing commands such as:
    ```
    1000 rent
    200 groceries
    del rent 500
    ```
-4. Use the export button to download your data
-5. Use reset to clear and start a new month
+4. Export your data anytime by clicking the Export button
+5. Use the Reset button to clear all data and start a new month
 
 ---
 
 ## 💾 Data Storage
 
-- All data (name, month, expenses) is stored in your browser's *localStorage*
-- No internet required, works 100% offline
+- All information (your name, selected month, and expenses) is stored securely in your browser's *localStorage*
+- Works completely offline — no servers, no accounts, no internet needed
 
 ---
 
-## 📂 Project Structure
+## 📈 Future Ideas
 
-```
-.
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
----
-
-## 📈 Future Ideas (optional)
-- Monthly switching
+- Monthly switching support
 - Dark mode toggle
 - Expense summaries per day/week
 - Voice command input
 
 ---
 
-Created with ❤️ by Dhruv — inspired by simplicity and the idea that good UX doesn't need buttons.
+> Created with ❤️ by Dhruv — inspired by simplicity, minimalism, and the belief that great UX can live without traditional forms and buttons.
